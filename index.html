@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>CV de Ludovic Rougier</title>
+</head>
+<body class="dark-mode">
+<header class="dark-mode">
+  <div id="contact">
+    <div id="contact-info" class="dark-mode"><button id="contact-info-btn" class="dark-mode">Informations de contact  <span id="arrow"> ▼ </span></button></div>
+    <div class="contact-menu hidden" id="contact-menu">
+      <a class="dark-mode" href="mailto:ludovic.rougier.1993@gmail.com">mail : ludovic.rougier.1993@gmail.com</a>
+      <a class="dark-mode" href="tel:+33632983105">téléphone : 06.32.98.31.05</a>
+      <a class="dark-mode" href="./docs/cv.pdf" download>Télécharger CV stylisé IDE</a>
+      <a class="dark-mode" href="./docs/cv.pdf" download>Télécharger CV classique</a>
+    </div>
+  </div>
+  <div>
+    <div class="radio_container">
+      <div class="form-check form-switch">
+        <input class="form-check-input theme_radio" type="checkbox" id="darkradio" checked>
+      </div>
+      <label class="form-check-label theme_radio" for="darkradio">Dark theme</label>
+    </div>
+  </div>
+</header>
+<div class="container">
+    <main>
+      <h1 class="main_title">Site CV et démonstrateur de Ludovic Rougier</h1>
+      <h2 class="subtitle">Présentation</h2>
+      <div class="presentation_container">
+        <div class="photo_presentation"></div>
+        <p class="presentation">Anciennement aiguilleur pour la SNCF, je me suis reconverti vers le developpement web pour m'épanouir pleinement, et apporter mes compétences a des entreprises innovantes</p>
+      </div>
+
+      <h2 class="subtitle">Compétences techniques</h2>
+      <div class="skill_container ">
+        <article class="skill darker col-12">
+          <div class="article_header">
+            <h3 class="col-9 skill_title">Frontend</h3>
+            <div class="grade col-3">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+          </div>
+          <ul>
+            <li> <span class="skill_detail_title">HTML</span> : Maîtrise du HTML</li>
+            <li> <span class="skill_detail_title">CSS</span> : Maîtrise du CSS et du responsive design</li>
+            <li> <span class="skill_detail_title">JavaScript</span> : Maîtrise de la création de scripts, gestion d'évenements, dynamisation de la page</li>
+            <li> <span class="skill_detail_title">React</span> : Pas encore abordé durant la formation</li>
+          </ul>
+
+        </article>
+        <article class="skill darker col-12">
+          <div class="row">
+            <div class="article_header">
+              <h3 class="col-9 skill_title">Backend</h3>
+              <div class="grade col-3">&#9733;&#9733;&#9733;&#9733;&#9734;</div>
+              </div>
+            </div>
+            <ul>
+              <li> <span class="skill_detail_title">ORM</span> : Connaissance des ORM, maîtrise de Sequelize</li>
+              <li> <span class="skill_detail_title">Framework</span> : Maîtrise du framework express.js</li>
+              <li> <span class="skill_detail_title">NodeJS</span> : Maitrise de la création d'un serveur, avec et sans framework, authentification, gestion des cookies, fonctionnement synchrone/asynchrone</li>
+            </ul>
+
+        </article>
+        <article class="skill darker col-12">
+          <div class="article_header">
+            <h3 class="col-9 skill_title">UI / UX</h3>
+            <div class="grade col-3">&#9733;&#9733;&#9733;&#9734;&#9734;</div>
+          </div>
+          <ul>
+            <li> <span class="skill_detail_title">Accessibilité</span> : connaissance des règles de chromie et des normes liées aux lecteurs d'écrans</li>
+            <li> <span class="skill_detail_title">Navigation</span> : Connaissance des bonnes pratiques pour une navigation fluide et intuitive</li>
+          </ul>
+        </article>
+        <article class="skill darker col-12">
+          <div class="article_header">
+            <h3 class="col-9 skill_title">Gestion de données</h3>
+            <div class="grade col-3">&#9733;&#9733;&#9734;&#9734;&#9734;</div>
+          </div>
+          <ul>
+            <li> <span class="skill_detail_title">SQL</span> : Création et administration d'une base de donnée, SGBD : postgres</li>
+            <li> <span class="skill_detail_title">NoSQL</span> : Pas encore abordé durant la formation</li>
+            <li> <span class="skill_detail_title">API / Data</span> : Pas encore abordé durant la formation</li>
+            <li> <span class="skill_detail_title">Data science</span>  : Pas encore abordé durant la formation</li>
+          </ul>
+
+        </article>
+      </div>
+    </main>
+
+
+  <footer>
+    <a href="./docs/cv.pdf" download><img src="./images/download.svg"
+        alt="logo twitter cliquable"></a>
+    <a href="https://www.linkedin.com/in/ludovic-rougier-682259143/" target="_blank"><img src="./images/linkedin.svg"
+        alt="logo twitter cliquable"></a>
+    <a href="mailto:ludovic.rougier.1993@gmail.com"><img src="./images/mail.svg" alt="logo twitter cliquable"></a>
+
+  </footer>
+  
+</div>
+<script type="text/javascript" src="./scripts/javascript.js" defer></script>
+</body>
+</html>

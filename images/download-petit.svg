@@ -1,0 +1,12 @@
+<svg width="50" height="50" xmlns="http://www.w3.org/2000/svg" nighteye="disabled">
+ <title>download</title>
+
+ <g>
+  <title>Layer 1</title>
+  <ellipse ry="24.68085" rx="24.68085" id="svg_5" cy="25" cx="25" fill="#000000"/>
+  <g id="svg_3">
+   <path fill="#ffffff" id="svg_1" d="m32,27.04728l0,5.1182l-14,0l0,-5.1182l-2,0l0,5.1182a2,2.04728 0 0 0 2,2.04728l14,0a2,2.04728 0 0 0 2,-2.04728l0,-5.1182l-2,0z"/>
+   <path fill="#ffffff" id="svg_2" d="m25,30.1182l5,-6.14184l-4,0l0,-8.18913l-2,0l0,8.18913l-4,0l5,6.14184z"/>
+  </g>
+ </g>
+</svg>
