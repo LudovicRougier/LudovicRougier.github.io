@@ -23,9 +23,6 @@ button {
   padding: 0.5em;
   background-color: white;
 }
-main {
-  z-index: 10;
-}
 .presentation_container{
   display: flex;
   flex-direction: row;
@@ -55,6 +52,7 @@ header a{
 
 .container{
   max-width: 40%;
+  position: relative;
   z-index: 2;
 }
 
@@ -79,10 +77,10 @@ header a{
 }
 
 header {
-  display: block;
-  position: sticky;
+  width: 94vw;
+  position: fixed;
   top: 0;
-  left: 0;
+  left: 3vh;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -95,7 +93,6 @@ header {
 }
 
 .open{
-  position: inherit;
   border: 1px solid black;
   border-radius: 10px;
   padding: 0 1em 1em 1em;
@@ -183,6 +180,9 @@ footer img {
   .contact-menu{
     position: inherit;
   }
+  header {
+    z-index: 10;
+  }
 }
 
 @media (max-width: 900px) {
@@ -203,9 +203,6 @@ footer img {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
-}
-header {
-  z-index: 2;
 }
 }
 
