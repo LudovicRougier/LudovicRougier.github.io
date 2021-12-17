@@ -79,7 +79,7 @@ header a{
 header {
   width: 94vw;
   position: fixed;
-  top: 0;
+  top: 10px;
   left: 3vh;
   display: flex;
   flex-direction: row;
