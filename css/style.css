@@ -162,6 +162,14 @@ footer img {
   padding: 2px;
 }
 
+.project {
+  padding: 1em;
+}
+
+.project a{
+  color: white;
+}
+
 .presentation{
   padding: 0 2em;
 }
